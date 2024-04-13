@@ -6,6 +6,11 @@
 
 [rehype](https://github.com/rehypejs/rehype) plugin to transform an image with alt text to a figure with caption
 
+## Status: feature complete
+
+> [!IMPORTANT]
+> Converting an image with alt text to a figure with caption is an [escape hatch](https://en.wiktionary.org/wiki/escape_hatch). Alt text, title, and captions have [different intended purposes](https://www.stylemanual.gov.au/content-types/images/alt-text-captions-and-titles-images), and you should eventually enhance your content to adopt them.
+
 - [What's this?](#whats-this)
 - [Install](#install)
 - [Use](#use)
