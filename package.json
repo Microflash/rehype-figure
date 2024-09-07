@@ -1,6 +1,6 @@
 {
 	"name": "@microflash/rehype-figure",
-	"version": "2.1.0",
+	"version": "2.1.1",
 	"description": "rehype plugin to transform an image with alt text to a figure with caption",
 	"license": "MIT",
 	"keywords": [
@@ -22,7 +22,7 @@
 		"index.js"
 	],
 	"scripts": {
-		"test": "ava"
+		"test": "vitest plugin"
 	},
 	"dependencies": {
 		"hast-util-whitespace": "^3.0.0",
@@ -31,16 +31,11 @@
 		"unist-util-visit": "^5.0.0"
 	},
 	"devDependencies": {
-		"ava": "^6.1.2",
 		"rehype-stringify": "^10.0.0",
 		"remark-parse": "^11.0.0",
 		"remark-rehype": "^11.1.0",
-		"unified": "^11.0.4"
+		"unified": "^11.0.5",
+		"vitest": "^2.0.5"
 	},
-	"packageManager": "pnpm@8.15.6",
-	"ava": {
-		"files": [
-			"test/**/*.test.js"
-		]
-	}
+	"packageManager": "pnpm@9.9.0"
 }
