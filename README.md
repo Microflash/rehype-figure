@@ -100,6 +100,11 @@ The following options are available. All of them are optional.
 
 By default, no classes are added to the `figure` element.
 
+## Development
+
+- Run `pnpm snapshot` to generate snapshots
+- Run `pnpm test` to run tests
+
 ## License
 
 [MIT](./LICENSE.md)
